@@ -2,7 +2,7 @@ from pdf2image import convert_from_path
 import os
 from img_to_text import convert_image_to_docx
 
-GENERATE_IMAGES = False
+GENERATE_IMAGES = True
 
 image_dir = f'extraction/output/pdf_images/'  # Replace with the path to your image directory
 extract_dir = f'extraction/output/extracted_texts/'
